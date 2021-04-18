@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="11">
+      <module name="IdeaProjects.spigot-plugin-base" target="13" />
+      <module name="IdeaProjects.spigot-plugin-base.main" target="13" />
+      <module name="IdeaProjects.spigot-plugin-base.test" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
