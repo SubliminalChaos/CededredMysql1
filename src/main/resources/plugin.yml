@@ -1,5 +1,5 @@
 main: me.waqe.plugin.App
-name: SpigotPlugin
+name: CodedredMysql
 version: '0.1'
 api: '1'
 api-version: 1.16
