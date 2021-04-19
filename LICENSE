@@ -19,26 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-public void connect() throws ClassNotFoundException, SQLException {
-  if (!isConnected()) {
-    connection = DriverManager.getConnection("jdbc:mysql://" +
-                host + ":" + port + "/" + database + "?useSSL=false",
-                username, password);
-
-  }
-}
-
-public void disconnect() {
-  if (isConnected()) {
-    try {
-        connection.close();
-    } catch (SQLException e) {
-        e.printStackTrace();
-    }
-  }
-}
-
-public Connection getConnection() {
-    return connection;
-}
